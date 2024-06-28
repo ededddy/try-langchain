@@ -1,0 +1,37 @@
+{
+  "name": "tryLangChain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "bun index.ts",
+    "rag": "bun rag.ts",
+    "crag": "bun crag.ts",
+    "lint": "eslint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/core": "^0.2.10",
+    "@langchain/groq": "^0.0.13",
+    "@langchain/nomic": "^0.0.6",
+    "cheerio": "^1.0.0-rc.12",
+    "langchain": "^0.2.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.5.0",
+    "@types/bun": "latest",
+    "@types/eslint__js": "^8.42.3",
+    "@typescript-eslint/parser": "^7.14.1",
+    "eslint": "^9.5.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.1",
+    "globals": "^15.6.0",
+    "typescript-eslint": "^7.14.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.5.2"
+  }
+}
